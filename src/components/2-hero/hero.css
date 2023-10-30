@@ -151,6 +151,38 @@ section.hero .animation {
     line-height: 1.4rem;
     margin-bottom: 15px;
     text-align: start;
+  }
+}
+/* ====================================
+==================================== */
+
+@media(max-width: 412px) {
+
+  section.hero h1.title {
+    font-size: .5rem;
+    line-height: 1.4rem;
+    margin: 5px 1px;
+    text-align: start;
+  }
+
+  .right-section {
+    display: none;
+  }
+
+  section.hero .animation {
+    display: none;
+  }
+
+  section.hero .left-section {
+    width: 100%;
+  }
+
+  section.hero p.subtitle {
+
+    font-size: 0.5rem;
+    line-height: 1.4rem;
+    margin-bottom: 15px;
+    text-align: start;
 
 
   }

@@ -82,21 +82,16 @@ footer.flex p {
 
 @media(max-width: 390px) {
   footer.flex {
-
     margin: .1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
   }
 
   footer.flex ul {
     flex-wrap: wrap;
     display: flex;
     margin-left: .1px;
-
-
-
   }
 
   footer.flex ul a {
@@ -104,10 +99,7 @@ footer.flex p {
     font-size: 0.7rem;
     font-weight: 400;
     padding-left: 5px;
-
     justify-content: center;
-
-
   }
 
   footer p {
@@ -120,10 +112,44 @@ footer.flex p {
     margin-top: 10px;
     margin-bottom: 14px;
     justify-content: center;
+  }
+}
+/* ====================================
+==================================== */
 
+@media(max-width: 412px) {
+  footer.flex {
+    margin: .1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
+  footer.flex ul {
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: .1px;
+  }
 
+  footer.flex ul a {
+    display: flex;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding-left: 5px;
+    justify-content: center;
+  }
+
+  footer p {
+    display: flex;
+    font-size: 0.7rem;
+    font-weight: 400;
+    transition: .3s;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    justify-content: center;
+  }
 }
 
 /* @media (max-width:600px) {

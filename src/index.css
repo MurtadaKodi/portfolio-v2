@@ -177,6 +177,31 @@ button:disabled {
     border-radius: 50%;
   }
 }
+/* ====================================
+==================================== */
+
+@media(max-width: 412px) {
+  .container {
+    --container-padding: .4rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--secondary);
+
+  }
+
+  .scroll2Top:hover {
+    background-color: rgb(25, 118, 210);
+  }
+
+  .scroll2Top {
+    width: 2rem;
+    height: 2.2rem;
+    opacity: 0.6;
+    font-size: 1rem;
+    border-radius: 50%;
+  }
+}
 
 
 
