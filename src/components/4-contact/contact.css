@@ -134,6 +134,39 @@ section.contact-us .submit:hover {
 
   }
 }
+/* ====================================
+==================================== */
+
+@media(max-width: 390px) {
+  section.contact-us .contact-animation {
+    display: none;
+
+  }
+
+  section.contact-us form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  section.contact-us form div.flex {
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+
+  }
+
+  section.contact-us #email,
+  section.contact-us #message {
+    width: 100%;
+    margin-left: 0;
+    padding: 0.5rem 5.5rem;
+    margin-top: 1rem;
+
+
+  }
+}
 
 
 
