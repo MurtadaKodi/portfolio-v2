@@ -16,7 +16,7 @@ const Contact = () => {
         <span className="icon-mail_outline"></span>
         Contact Us
       </h1>
-      <p className="sub-title">hiougfjdxjvbbkhgvcxgfuhjvcfghjbdfghbcf</p>
+      <p className="sub-title">hiougfjdxjvbbkhg</p>
 
       <div style={{ justifyContent: "space-between" }} className="flex">
         <form onSubmit={handleSubmit} className="">

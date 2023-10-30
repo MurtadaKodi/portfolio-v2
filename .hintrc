@@ -10,7 +10,8 @@
           "scale",
           "backdrop-filter",
           "rotate",
-          "translate"
+          "translate",
+          "scrollbar-color"
         ]
       }
     ]

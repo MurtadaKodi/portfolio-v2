@@ -1,0 +1,108 @@
+@media (max-width: 1000px) {
+  .container {
+    --container-padding:1.7rem
+    width: 90%;
+    padding: 0 var(--container-padding);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 1px solid red;
+    .container {
+      border: 2px solid var(--border);
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: var(--secondary);
+      padding: 0 var(--container-padding);
+    
+    }
+    
+  }
+  .scroll2Top{
+    opacity: 0.7;
+    width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 4rem;
+  border: 1px solid red;
+    }
+    header.flex nav{display: none;}
+
+  header button.menu{
+    display: block;
+  }
+  header .fixed{
+  position: fixed;
+  inset: 0;
+  z-index: 11;
+  background-color: rgb(40, 40, 48, 0.91);
+  /* border: 1px solid red; */
+  backdrop-filter: blur(8px);
+}
+
+  header .fixed ul.modal{
+    animation:mymove 0.7s 1 ;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+    background-color: var(--secondary);
+    /* border: 1px solid red; */
+  }
+  /* .flex {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    
+  } */
+  main section.left-section.flex{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  /* main section.right-section.flex{
+     flex-grow: 1; 
+     justify-content: center;
+     row-gap: 2rem; 
+     column-gap: 16px;
+    flex-wrap: wrap;
+    padding-left: 40px; 
+    border: 1px solid red
+    } */
+  
+    
+
+  .card img {
+    margin-left: auto;margin-right: auto;
+    border: 1px solid red;
+    
+    }
+    .card a.link{
+      font-style: 0.9em;
+      color: var(--blue);
+      margin-right: -160px;
+    }
+    .card .icon-link, .card .icon-youtube-play {
+      color: var(--subtitle);
+      font-size: 1.5rem;
+      /* border: 1px solid red; */
+    }
+    
+  main section.left-section.flex button{
+    width: 7rem;
+    padding: 0.8rem 0;
+    font-size: 0.9rem;
+  
+  }
+}
+

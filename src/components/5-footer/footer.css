@@ -1,37 +1,88 @@
-
-
-
 footer.flex {
-justify-content: space-between;
-margin-bottom: 1.9rem;
+  justify-content: space-between;
+  margin-bottom: 1.9rem;
 
 
 }
-footer.flex ul{
+
+footer.flex ul {
   gap: 1rem;
 
 }
-footer.flex ul a{
+
+footer.flex ul a {
   color: var(--subtitle);
   font-size: 0.9rem;
   font-weight: 400;
   transition: .3s;
 }
-footer.flex ul a:hover{
+
+footer.flex ul a:hover {
   color: var(--blue);
   font-size: 1.1rem;
   font-weight: 500;
 }
-footer.flex p{
+
+footer.flex p {
   color: rgb(113, 113, 122);
 
 }
 
-@media (max-width:600px) {
+/* =========================
+3. @Meadia Query
+========================= */
+
+@media (max-width: 375px) {
+  footer.flex {
+
+    margin: .1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+  footer.flex ul {
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: .1px;
+
+
+
+  }
+
+  footer.flex ul a {
+    display: flex;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding-left: 5px;
+
+    justify-content: center;
+
+
+  }
+
+  footer p {
+    display: flex;
+    font-size: 0.7rem;
+    font-weight: 400;
+    transition: .3s;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    justify-content: center;
+
+  }
+
+
+}
+
+/* @media (max-width:600px) {
   footer.flex{
     flex-direction: column;
     gap: 1.3rem;
     margin-bottom: 1.2rem;
   }
   
-}
+} */

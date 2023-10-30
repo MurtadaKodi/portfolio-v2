@@ -1,4 +1,3 @@
-
 /* =============
 table of contents
 ================
@@ -40,39 +39,43 @@ section .avatar {
   box-shadow: 2px 2px 40px rgb(116, 110, 144) inset;
 }
 
-section.hero h1.title{
+section.hero h1.title {
   font-size: 2.85rem;
   line-height: 3.3rem;
   margin: 20px 0;
   color: var(--title);
 }
-section.hero p.subtitle{
+
+section.hero p.subtitle {
   color: var(--subtitle);
   font-size: 0.9rem;
   line-height: 1.65rem;
   margin-bottom: 32px;
 }
-section.hero .all-icons{
+
+section.hero .all-icons {
   font-size: 1.3rem;
   gap: 1.5rem;
   color: var(--subtitle);
 }
-section.hero .all-icons .icon:hover{
+
+section.hero .all-icons .icon:hover {
   font-size: 1.5rem;
   transition: .2s;
   cursor: pointer;
   color: var(--icon-hover);
-  
+
 }
 
 /* =========================
 2. Right Section ==> Animation
 ========================= */
-section.hero .animation{
+section.hero .animation {
   width: 50%;
   translate: 1px 170px;
 }
-.animation2{
+
+.animation2 {
   width: 120%;
   translate: 80px 100px;
 }
@@ -86,9 +89,41 @@ section.hero .animation{
 /* =========================
 3. @Meadia Query
 ========================= */
+@media(max-width: 375px) {
+
+  section.hero h1.title {
+    font-size: .5rem;
+    line-height: 1.4rem;
+    margin: 5px 1px;
+    text-align: start;
+  }
+
+  .right-section {
+    display: none;
+  }
+
+  section.hero .animation {
+    display: none;
+  }
+
+  section.hero .left-section {
+    width: 100%;
+  }
+
+  section.hero p.subtitle {
+
+    font-size: 0.5rem;
+    line-height: 1.4rem;
+    margin-bottom: 15px;
+    text-align: start;
 
 
-@media (max-width: 600px){
+  }
+
+
+}
+
+/* @media (max-width: 600px){
 
   section.hero{
     flex-direction: column;
@@ -103,6 +138,7 @@ section.hero .animation{
     gap: 1rem;
     color: var(--subtitle);
     margin-left: 20px;
+    
   }
   
   
@@ -130,4 +166,4 @@ section.hero .animation{
 
   section.hero .animation {
     display: none;
-  }}
+  }} */

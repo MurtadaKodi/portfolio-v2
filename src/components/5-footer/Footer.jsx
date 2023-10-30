@@ -10,7 +10,7 @@ const Footer = () => {
       <li><a href="">Users</a></li>
       </ul>
 
-      <p>created by <span style={{fontSize:'18px ', fontStyle:'italic'}}>Murtada Kodi</span>  @2024</p>
+      <p>created by <br /> Murtada Kodi  @2023</p>
       
       
     </footer>)

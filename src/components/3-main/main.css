@@ -1,4 +1,3 @@
-
 /* =============
 table of contents
 ================
@@ -8,7 +7,7 @@ table of contents
 
 */
 
-main.flex{
+main.flex {
   gap: 2.6rem;
   align-items: start;
 }
@@ -16,11 +15,12 @@ main.flex{
 /* =========================
 1. left Section ===> Buttons
 ========================= */
-main section.left-section.flex{
+main section.left-section.flex {
   flex-direction: column;
   gap: 10px;
 }
-main section.left-section.flex button{
+
+main section.left-section.flex button {
   background-color: rgba(36, 37, 46, 1);
   width: 11rem;
   padding: 0.75rem 0;
@@ -32,11 +32,11 @@ main section.left-section.flex button{
   transition: 0.3s;
 }
 
-main section.left-section.flex button:hover{
+main section.left-section.flex button:hover {
   opacity: 1;
 }
 
-main section.left-section button.active{
+main section.left-section button.active {
   opacity: 1;
   font-weight: bold;
   letter-spacing: 0.6px;
@@ -44,69 +44,87 @@ main section.left-section button.active{
   border: 1px solid var(--blue);
 }
 
-.light main section.left-section.flex button.active{
+.light main section.left-section.flex button.active {
   border: 1px solid #000;
 }
 
 /* =========================
 2. Right Section ===> Cards
 ========================= */
-main section.right-section.flex{
-flex-grow: 1;
-justify-content: center;
-row-gap: 2rem;
-column-gap: 16px;
-flex-wrap: wrap;
-padding-left: 40px;
+main section.right-section.flex {
+  flex-grow: 1;
+  justify-content: center;
+  row-gap: 2rem;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  padding-left: 10px;
 }
-.card{
-  box-shadow: -1px 1px 1px  rgba(0, 0, 0, 0.13),1px 1px 1px  rgba(0, 0, 0, 0.13);
+
+.card {
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.13), 1px 1px 1px rgba(0, 0, 0, 0.13);
   border: 1px solid rgba(93, 188, 252, 0.3);
   border-radius: 5px;
   transition: 0.3s;
-  background-image: linear-gradient(
-  rgba(255, 255, 255, 0.05),
-  rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+  display: inline-block;
+  width: 266px;
+
+  justify-content: center;
+  align-items: center;
 }
-.light .card, .light .card:hover{
+
+.light .card,
+.light .card:hover {
   border: none;
 }
-.card:hover{
+
+.card:hover {
   border: 1px solid var(--blue);
   rotate: 1deg;
   scale: 1.01;
   cursor: pointer;
 }
-.card img{
+
+.card img {
   border-radius: 5px;
-  
+  width: 266px;
+
 }
-.card .box{
+
+.card .box {
   padding: 1rem 0.4rem;
 }
-.card .box .title{
+
+.card .box .title {
   color: var(--title);
   text-transform: capitalize;
 }
-.card .box .sub-title{
+
+.card .box .sub-title {
   color: var(--subtitle);
   font-style: 0.8rem;
   margin-top: 0.7rem;
   margin-bottom: 1.1rem;
 }
-.card .box .icons{
-justify-content: space-between;
+
+.card .box .icons {
+  justify-content: space-between;
 }
-.card .icon-link, .card .icon-youtube-play {
+
+.card .icon-link,
+.card .icon-youtube-play {
   color: var(--subtitle);
   font-size: 1.2rem;
 }
-.card .icon-link:hover, .card .icon-youtube-play:hover {
+
+.card .icon-link:hover,
+.card .icon-youtube-play:hover {
   color: var(--icon-hover);
   font-size: 1.25rem;
   cursor: pointer;
 }
-.card a.link{
+
+.card a.link {
   font-style: 0.9em;
   color: var(--blue);
   margin-right: 12px;
@@ -116,8 +134,77 @@ justify-content: space-between;
 3. @Meadia Query
 ========================= */
 
+@media (max-width: 375px) {
 
-@media (max-width: 600px) {
+  main.flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main section.left-section.flex {
+
+    justify-content: center;
+
+  }
+
+  main section.right-section.flex {
+
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    justify-content: center;
+    row-gap: 1rem;
+    column-gap: 2px;
+    flex-wrap: wrap;
+    padding-left: .2px;
+
+  }
+
+  .card {
+    display: inline-block;
+    width: 90%;
+
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .card img {
+    width: 100%;
+
+  }
+
+  .card a.link {
+    font-size: 0.8rem;
+    margin-right: -1px;
+
+  }
+
+  .card .icon-link,
+  .card .icon-youtube-play {
+    color: var(--subtitle);
+    font-size: 1.5rem;
+
+    justify-content: space-around;
+  }
+
+  .card .box .icons {
+    justify-content: space-between;
+
+  }
+
+  .card .box .title {
+    margin-bottom: 12px;
+    font-size: 16px;
+
+
+  }
+}
+
+
+
+/* @media (max-width: 600px) {
   main.flex{
     flex-direction: column;
     width: 98%;
@@ -134,7 +221,7 @@ justify-content: space-between;
 
   .card img {
     width: 450px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     }
     .card a.link{
       font-style: 0.9em;
@@ -144,7 +231,7 @@ justify-content: space-between;
     .card .icon-link, .card .icon-youtube-play {
       color: var(--subtitle);
       font-size: 1.5rem;
-      /* border: 1px solid red; */
+      border: 1px solid red;
     }
     
   main section.left-section.flex button{
@@ -153,4 +240,4 @@ justify-content: space-between;
     font-size: 0.9rem;
   
   }
-}
+} */
