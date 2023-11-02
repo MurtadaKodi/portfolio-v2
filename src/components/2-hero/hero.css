@@ -188,6 +188,15 @@ section.hero .animation {
   }
 
 }
+/* ====================================
+==================================== */
+
+@media(max-width: 540px) {
+  .contact-animation{
+    padding-right: 50px;
+    font-size: 100px;
+  }
+}
 
 /* @media (max-width: 600px){
 

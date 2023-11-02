@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./header.css";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [showModal, setshowModal] = useState(false);
@@ -31,20 +32,21 @@ const Header = () => {
 
       <nav>
         <ul className="flex">
-          <li>
-            <a href="">About</a>
+        <li>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a href="">Articles</a>
+            <NavLink to="/north">Northen House</NavLink>
           </li>
           <li>
-            <a href="">Projects</a>
+            <NavLink to="/south">Palace</NavLink>
           </li>
           <li>
-            <a href="">Speaking</a>
+            <NavLink to="/shop-area">Souq</NavLink>
           </li>
+          
           <li>
-            <a href="">Contact</a>
+            <NavLink to="/Page4">Contact</NavLink>
           </li>
         </ul>
       </nav>

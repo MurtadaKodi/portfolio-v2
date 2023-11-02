@@ -1,5 +1,450 @@
 /* =============
 table of contents
+===============
+
+1. Header Design
+2. Button & Icons
+3. Modal == pop up
+3. @Media Query
+*/
+
+
+
+/* =========================
+1. Header Design
+========================= */
+header.flex {
+  justify-content: space-between;
+  padding: 0 2.4rem;
+  margin-top: 1.2rem;
+}
+
+header.flex nav {
+  background-color: var(--bgHeader);
+  padding: .77rem 1.6rem;
+  border-radius: 55px;
+  box-shadow: 1px 1px 40px #2323242a;
+}
+
+header ul.flex {
+  gap: 16px;
+}
+
+header ul li a {
+  color: var(--title);
+  opacity: 0.9;
+  font-size: 0.88rem;
+  font-weight: 500;
+
+}
+
+header ul li a:hover {
+  color: var(--blue);
+  opacity: 1;
+  font-size: 1rem;
+  font-style: italic;
+
+}
+
+header button {
+  font-size: 1.2rem;
+}
+
+header button.menu {
+  display: none;
+}
+
+/* =========================
+2. IconsButtons
+========================= */
+button {
+  all: unset;
+}
+
+header button.mode,
+header button.icon-menu,
+button.icon-clear {
+  background-color: var(--bgHeader);
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  color: var(--subtitle);
+  border: 1px solid #f4bf702a;
+  transition: 0.2s;
+  box-shadow: 1px 1px 40px rgba(35, 35, 36, 0.3);
+}
+
+header button.mode:hover,
+header button.icon-menu:hover {
+  color: var(--title);
+  border: 1px solid #f89706;
+}
+
+header .icon-clear {
+  all: unset;
+  font-size: 1.3rem;
+  color: var(--subtitle);
+  transition: 0.3s;
+}
+
+header .icon-clear:hover {
+  font-size: 2rem;
+  color: crimson;
+  rotate: 45deg;
+}
+
+header .icon-brightness-up {
+  color: rgb(255, 165, 0);
+}
+
+
+
+/* =========================
+3. modal == pop up
+========================= */
+header.flex {
+  justify-content: space-between;
+  padding: 0 2.4rem;
+  margin-top: 1.2rem;
+
+}
+
+header.flex nav {
+  background-color: var(--bgHeader);
+  padding: .77rem 1.6rem;
+  border-radius: 55px;
+  box-shadow: 1px 1px 40px #2323242a;
+}
+
+@keyframes mymove {
+  0% {
+    scale: 0;
+  }
+
+  60% {
+    scale: 1.2;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+header .fixed ul.modal {
+  animation: mymove 0.7s 1;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  background-color: var(--secondary);
+
+}
+
+header .fixed ul.modal li {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.77rem;
+  padding-top: 0.5rem;
+}
+
+header .fixed ul.modal li:first-child {
+  text-align: right;
+  border: none;
+  padding-bottom: 0;
+  padding-top: 0.2rem;
+  margin-bottom: -1rem;
+}
+
+header .fixed ul.modal li:last-child {
+  border: none;
+}
+
+header .fixed ul.modal li a {
+  font-size: 1rem;
+}
+.active{
+  color: cyan;
+  box-shadow: 0 0 5px cyan;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+/* =========================
+4. @MeadiaQuiery
+========================= */
+@media(max-width: 375px) {
+  header.flex nav {
+    display: none;
+  }
+  header .fixed{
+    position: fixed;
+    inset: 0;
+    z-index: 11;
+    background-color: rgb(40, 40, 48, 0.91);
+    
+    backdrop-filter: blur(8px);
+  }
+
+  header button.menu {
+    display: inline-block;
+
+  }
+
+  header.flex {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .2rem;
+
+  }
+
+  header.flex {
+
+    width: 95%;
+    border-radius: 0.5rem;
+    padding: 0.5em 0.5rem;
+
+  }
+
+  header button.mode,
+  header button.icon-menu,
+  button.icon-clear {
+
+    height: 1rem;
+    width: 1rem;
+    border-radius: 80%;
+    justify-content: space-between;
+    text-align: center;
+
+  }
+
+  header .fixed ul.modal {
+
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    background-color: var(--secondary);
+    
+  }
+}
+
+/* ====================================
+==================================== */
+
+@media(max-width: 390px) {
+  header.flex nav {
+    display: none;
+  }
+  header .fixed{
+    position: fixed;
+    inset: 0;
+    z-index: 11;
+    background-color: rgb(40, 40, 48, 0.91);
+    
+    backdrop-filter: blur(8px);
+  }
+
+  header button.menu {
+    display: inline-block;
+
+  }
+
+  header.flex {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .2rem;
+
+  }
+
+  header.flex {
+
+    width: 95%;
+    border-radius: 0.5rem;
+    padding: 0.5em 0.5rem;
+
+  }
+
+  header button.mode,
+  header button.icon-menu,
+  button.icon-clear {
+
+    height: 1rem;
+    width: 1rem;
+    border-radius: 80%;
+    justify-content: space-between;
+    text-align: center;
+
+  }
+
+  header .fixed ul.modal {
+
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    background-color: var(--secondary);
+    
+  }
+}
+/* ====================================
+==================================== */
+
+@media(max-width: 412px) {
+  header.flex nav {
+    display: none;
+  }
+  header .fixed{
+    position: fixed;
+    inset: 0;
+    z-index: 11;
+    background-color: rgb(40, 40, 48, 0.91);
+  
+    backdrop-filter: blur(8px);
+  }
+
+  header button.menu {
+    display: inline-block;
+
+  }
+
+  header.flex {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .2rem;
+
+  }
+
+  header.flex {
+
+    width: 95%;
+    border-radius: 0.5rem;
+    padding: 0.5em 0.5rem;
+
+  }
+
+  header button.mode,
+  header button.icon-menu,
+  button.icon-clear {
+
+    height: 1rem;
+    width: 1rem;
+    border-radius: 80%;
+    justify-content: space-between;
+    text-align: center;
+
+  }
+
+  header .fixed ul.modal {
+
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    background-color: var(--secondary);
+    
+  }
+}
+/* ====================================
+==================================== */
+
+@media(max-width: 430px) {
+  header.flex nav {
+    display: none;
+  }
+  .contact-animation{
+    display: none;
+  }
+  header .fixed{
+    position: fixed;
+    inset: 0;
+    z-index: 11;
+    background-color: rgb(40, 40, 48, 0.91);
+  
+    backdrop-filter: blur(8px);
+  }
+
+  header button.menu {
+    display: inline-block;
+
+  }
+
+  header.flex {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .2rem;
+
+  }
+
+  header.flex {
+
+    width: 95%;
+    border-radius: 0.5rem;
+    padding: 0.5em 0.5rem;
+
+  }
+
+  header button.mode,
+  header button.icon-menu,
+  button.icon-clear {
+
+    height: 1rem;
+    width: 1rem;
+    border-radius: 80%;
+    justify-content: space-between;
+    text-align: center;
+
+  }
+
+  header .fixed ul.modal {
+
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    background-color: var(--secondary);
+    
+  }
+}
+
+/* @media (max-width: 600px) {
+  header.flex nav{display: none;}
+
+  header button.menu{
+    display: block;
+  }
+  header .fixed{
+  position: fixed;
+  inset: 0;
+  z-index: 11;
+  background-color: rgb(40, 40, 48, 0.91);
+  border: 1px solid red;
+  backdrop-filter: blur(8px);
+}
+
+  
+} */
+/* =============
+table of contents
 ================
 1. left Section ===> Buttons
 2. Right Section ===> Cards
@@ -519,40 +964,3 @@ main section.right-section.flex {
 }
 
 
-/* @media (max-width: 600px) {
-  main.flex{
-    flex-direction: column;
-    width: 98%;
-    align-items:center;
-    
-  }
-
-  main section.left-section.flex{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-  }
-
-  .card img {
-    width: 450px;
-    border: 1px solid red;
-    }
-    .card a.link{
-      font-style: 0.9em;
-      color: var(--blue);
-      margin-right: -160px;
-    }
-    .card .icon-link, .card .icon-youtube-play {
-      color: var(--subtitle);
-      font-size: 1.5rem;
-      border: 1px solid red;
-    }
-    
-  main section.left-section.flex button{
-    width: 7rem;
-    padding: 0.8rem 0;
-    font-size: 0.9rem;
-  
-  }
-} */

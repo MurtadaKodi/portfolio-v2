@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./main.css";
+
+
+
 import { myProject } from "./myProjects";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -71,11 +74,11 @@ const Main = () => {
             transition={{type:'spring', damping:8, stiffness:40}}
 
             key={item.imgPath} className="card ">
-              <img  src={item.imgPath} alt="" />
+              <img width={266} src={item.imgPath} alt="" />
 
-              <div  className="box">
+              <div style={{ width: "266px" }} className="box">
                 <h1 className="title"> {item.projectTitle}</h1>
-                {/* <p className="sub-title">hgftdfgghjgcgfyghkfg hhghghfhfh</p> */}
+                <p className="sub-title">hgftdfgghjgcgfyghkfg hhghghfhfh</p>
 
                 <div className="icons flex ">
                   <div style={{ gap: "11px" }} className="flex">

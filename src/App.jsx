@@ -4,6 +4,9 @@ import Hero from './components/2-hero/Hero'
 import Main from './components/3-main/Main'
 import Contact from './components/4-contact/Contact'
 import Footer from './components/5-footer/Footer'
+
+
+
 import { useState } from 'react'
 
 

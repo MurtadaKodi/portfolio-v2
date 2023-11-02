@@ -2,7 +2,7 @@ import "./contact.css";
 import { useForm, ValidationError } from "@formspree/react";
 import Lottie from "lottie-react";
 import done4Animation from "../../animation/done4.json";
-import contactAnimation from "../../animation/contact-us.json";
+// import contactAnimation from "../../animation/contact-us.json";
 
 
 
@@ -64,13 +64,13 @@ const Contact = () => {
             </p>
           )}
         </form>
-        <div className="animation2  ">
+        {/* <div className="animation2  ">
         <Lottie className="contact-animation "
                 loop={true}
                 style={{ height:250,width:250}}
                 animationData={contactAnimation}
               />
-        </div>
+        </div> */}
       </div>
     </section>
   );
