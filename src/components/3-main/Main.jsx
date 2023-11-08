@@ -1,8 +1,5 @@
 import { useState } from "react";
 import "./main.css";
-
-
-
 import { myProject } from "./myProjects";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -80,20 +77,25 @@ const Main = () => {
                 <h1 className="title"> {item.projectTitle}</h1>
                 <p className="sub-title">hgftdfgghjgcgfyghkfg hhghghfhfh</p>
 
-                <div className="icons flex ">
+                {/* <div className="icons flex ">
+
                   <div style={{ gap: "11px" }} className="flex">
-                    <div className="icon-link"></div>
+                    <a href="#">
+                      <div className="icon-link"></div>
+                    </a>
                     <div className="icon-youtube-play"></div>
                   </div>
 
-                  <a className="link flex" href="#">
-                    More
-                    <span
-                      style={{ alignSelf: "end" }}
-                      className="icon-arrow-right"
-                    ></span>
-                  </a>
-                </div>
+                  <div>
+                    <a className="link flex" href="#">
+                      More
+                      <span
+                        style={{ alignSelf: "end" }}
+                        className="icon-arrow-right"
+                      ></span>
+                    </a>
+                  </div>
+                </div> */}
               </div>
             </motion.article>
           );

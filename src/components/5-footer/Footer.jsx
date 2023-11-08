@@ -1,16 +1,20 @@
+import { NavLink } from 'react-router-dom';
 import  './footer.css';
 const Footer = () => {
   return (
     (<footer className='flex'>
 
-      <ul className='flex'>
-      <li><a href="">About</a></li>
-      <li><a href="">Projects</a></li>
-      <li><a href="">Speaking</a></li>
-      <li><a href="">Users</a></li>
+      <ul className='modal '>
+        <ul className='flex'>
+          
+        <li><NavLink to="/site">Alzubara Site</NavLink></li>
+        <li><NavLink to="/fort">Alzubara Fort</NavLink></li>
+        <li><NavLink to="/emrair">Emrair</NavLink></li>
+        <li><NavLink to="/near">Near</NavLink></li>
+        </ul>
       </ul>
 
-      <p>created by <br /> Murtada Kodi  @2023</p>
+      <p>created by  Murtada Kodi  @2023</p>
       
       
     </footer>)

@@ -32,21 +32,21 @@ const Header = () => {
 
       <nav>
         <ul className="flex">
-        <li>
+          <li>
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
             <NavLink to="/north">Northen House</NavLink>
           </li>
           <li>
-            <NavLink to="/south">Palace</NavLink>
+            <NavLink to="/south">Southern</NavLink>
           </li>
           <li>
-            <NavLink to="/shop-area">Souq</NavLink>
+            <NavLink to="/souq">Souq</NavLink>
           </li>
-          
+
           <li>
-            <NavLink to="/Page4">Contact</NavLink>
+            <NavLink to="/Page4">Page4</NavLink>
           </li>
         </ul>
       </nav>
@@ -64,7 +64,7 @@ const Header = () => {
         }}
         className="mode flex"
       >
-        {theme === 'dark' ? (
+        {theme === "dark" ? (
           <span className="icon-moon-o"></span>
         ) : (
           <span className="icon-brightness-up"></span>
@@ -83,19 +83,19 @@ const Header = () => {
               ></button>
             </li>
             <li>
-              <a href="">About</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="">Articles</a>
+              <a href="/north">Northern House</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="/palace">Palace</a>
             </li>
             <li>
-              <a href="">Speaking</a>
+              <a href="/shop-area">Souq</a>
             </li>
             <li>
-              <a href="">Uses</a>
+              <a href="/Page4">Contact</a>
             </li>
           </ul>
         </div>
