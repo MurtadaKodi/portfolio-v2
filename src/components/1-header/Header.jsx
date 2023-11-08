@@ -89,13 +89,13 @@ const Header = () => {
               <a href="/north">Northern House</a>
             </li>
             <li>
-              <a href="/palace">Palace</a>
+              <a href="/south">Southern</a>
             </li>
             <li>
-              <a href="/shop-area">Souq</a>
+              <a href="/souq">Souq</a>
             </li>
             <li>
-              <a href="/Page4">Contact</a>
+              <a href="/Page4">Page4</a>
             </li>
           </ul>
         </div>
