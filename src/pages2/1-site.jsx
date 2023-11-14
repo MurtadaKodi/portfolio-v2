@@ -13,9 +13,7 @@ const North = () => {
     
     <div>
       <Header/>
-      {/* <div className='divider'/> */}
-      {/* <Hero/> */}
-      {/* <div className='divider'/> */}
+      
       <section className="slider-sec" >
         <Fort/>
       </section>

@@ -7,26 +7,26 @@ export const myProject = [
   },
   {
     projectTitle: "css project",
-    category: ["css", "html"],
+    category: [ "North House"],
     imgPath: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319692/WebSite%20Images/Alzubara%20image/25660_e4ee9b.jpg",
   },
   { projectTitle: "html project",
   category: ["react",'html'],
-  imgPath: "./2.webp"
+  imgPath: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319692/WebSite%20Images/Alzubara%20image/24896_lnxu6n.jpg"
   },
   {
     projectTitle: "react project",
     category: ["react", "css"],
-    imgPath: "./1.jpg",
+    imgPath: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319692/WebSite%20Images/Alzubara%20image/25731_ytgthb.jpg",
   },
   {
     projectTitle: "css project",
     category: ["css", "html"],
-    imgPath: "./3.JPG",
+    imgPath: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319695/WebSite%20Images/Alzubara%20image/911_u5kfqv.jpg",
   },
   { projectTitle: "html project",
   category: ["html"],
-  imgPath: "./2.webp"
+  imgPath: "https://res.cloudinary.com/dmklduciw/image/upload/v1686040918/WebSite%20Images/Sites/Alzubara-1_wevuxm.jpg"
   },
 
 ];
