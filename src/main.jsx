@@ -7,7 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import NorthenHouse from './pages/1-north.jsx';
-import ShopArea from './pages/3-shop-area.jsx';
+
 import SouthHouse from './pages/2-palace.jsx';
 import Page4 from './pages/5-page4.jsx';
 
@@ -20,9 +20,7 @@ import PalaceVideo from './pages/2-palace-video.jsx';
 import Souq from './pages/4-souq.jsx';
 import PagesHero from './pages/pages-hero.jsx';
 
-// import ImageGallery from './pages2/gallery‏.jsx';
 
-// import { myProject } from 'components/3-main/myProjects.js';
 
 
 
@@ -35,10 +33,7 @@ const router = createBrowserRouter([
     path: "/north",
     element: <NorthenHouse/>,
   },
-  {
-    path: "/shop-area",
-    element: <ShopArea/>,
-  },
+
   {
     path: "/south",
     element: <SouthHouse/>,
@@ -76,10 +71,7 @@ const router = createBrowserRouter([
         element: <PagesHero/>,
       },
 
-      // {
-      //   path: "/palace-video",
-      //     element: <PalaceVideo/>,
-      //   },
+      
 
 
   

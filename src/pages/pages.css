@@ -280,7 +280,6 @@ footer.flex p {
     margin-left: auto;
     margin-right: auto;
     gap: 1.2rem;
-    /* border: 2px solid red; */
     padding: 1rem;
     flex-direction: column;
   }
@@ -351,7 +350,6 @@ footer.flex p {
     margin-right: auto;
     margin-top: 2rem;
     width: 90%;
-    /* border: 2px solid red; */
     padding: 1rem;
     border-radius: 30px;
     box-shadow: 1px 2px 9px #F4AAB9;
@@ -366,8 +364,7 @@ footer.flex p {
     margin-top: 1rem;
     width: 100% !important;
     border-radius: 30px;
-    /* box-shadow: 1px 2px 9px #F4AAB9; */
-    /* border: 2px solid red; */
+    
   }
   .card-container{
     display: flex;
@@ -386,7 +383,6 @@ footer.flex p {
     margin-left: auto;
     margin-right: auto;
     gap: 1.2rem;
-    /* border: 2px solid red; */
     padding: 1rem;
     flex-direction: column;
   }
@@ -403,7 +399,6 @@ footer.flex p {
     margin-right: auto;
     justify-content: center;
   
-    /* border: 1px solid rgb(36, 195, 47); */
   }
   .map-container{
     display: flex;
@@ -456,7 +451,6 @@ footer.flex p {
     margin-right: auto;
     margin-top: 2rem;
     width: 90%;
-    /* border: 2px solid red; */
     padding: 1rem;
     border-radius: 30px;
     box-shadow: 1px 2px 9px #F4AAB9;
@@ -491,7 +485,6 @@ footer.flex p {
     margin-left: auto;
     margin-right: auto;
     gap: 1.2rem;
-    /* border: 2px solid red; */
     padding: 1rem;
     flex-direction: column;
   }
@@ -508,7 +501,6 @@ footer.flex p {
     margin-right: auto;
     justify-content: center;
   
-    /* border: 1px solid rgb(36, 195, 47); */
   }
   .map-container{
     display: flex;
@@ -519,7 +511,6 @@ footer.flex p {
     margin-right: auto;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid rgb(36, 195, 47); */
 
   }
   .map-sec {
@@ -527,7 +518,6 @@ footer.flex p {
     height: 400px;
     width: 300px;
   
-    /* border: 1px solid rgb(36, 195, 47); */
   }
   footer.flex ul {
     display: flex;
@@ -561,7 +551,6 @@ footer.flex p {
     margin-right: auto;
     margin-top: 2rem;
     width: 90%;
-    /* border: 2px solid red; */
     padding: 1rem;
     border-radius: 30px;
     box-shadow: 1px 2px 9px #F4AAB9;
@@ -576,8 +565,7 @@ footer.flex p {
     margin-top: 1rem;
     width: 100% !important;
     border-radius: 30px;
-    /* box-shadow: 1px 2px 9px #F4AAB9; */
-    /* border: 2px solid red; */
+  
   }
   .card-container{
     display: flex;
@@ -596,7 +584,6 @@ footer.flex p {
     margin-left: auto;
     margin-right: auto;
     gap: 1.2rem;
-    /* border: 2px solid red; */
     padding: 1rem;
     flex-direction: column;
   }
@@ -613,7 +600,6 @@ footer.flex p {
     margin-right: auto;
     justify-content: center;
   
-    /* border: 1px solid rgb(36, 195, 47); */
   }
   .map-container{
     display: flex;
@@ -624,7 +610,7 @@ footer.flex p {
     margin-right: auto;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid rgb(36, 195, 47); */
+  
 
   }
   .map-sec {
@@ -632,7 +618,6 @@ footer.flex p {
     height: 400px;
     width: 300px;
   
-    /* border: 1px solid rgb(36, 195, 47); */
   }
   footer.flex ul {
     display: flex;

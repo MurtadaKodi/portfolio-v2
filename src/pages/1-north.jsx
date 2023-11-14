@@ -5,7 +5,7 @@ import VideoPlayer from './2-palace-video';
 import ImgMediaCard from './2-palace-img';
 import PalaceMap from './2-palace-map';
 
-// import PalaceImag from './5-palace-img';
+
 
 
 
@@ -21,7 +21,7 @@ const North = () => {
     
     <div>
       <Header/>
-      {/* <PagesHero/> */}
+      
 
       <section className='flex main-container'>
         <ImgMediaCard/>
