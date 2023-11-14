@@ -39,7 +39,7 @@ const Header = () => {
             <NavLink to="/north">Northen House</NavLink>
           </li>
           <li>
-            <NavLink to="/south">Southern</NavLink>
+            <NavLink to="/south">Palace</NavLink>
           </li>
           <li>
             <NavLink to="/souq">Souq</NavLink>
@@ -83,19 +83,19 @@ const Header = () => {
               ></button>
             </li>
             <li>
-              <a href="/">Home</a>
+            <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="/north">Northern House</a>
+            <NavLink to="/north">Northen House</NavLink>
             </li>
             <li>
-              <a href="/south">Southern</a>
+            <NavLink to="/south">Palace</NavLink>
             </li>
             <li>
-              <a href="/souq">Souq</a>
+            <NavLink to="/souq">Souq</NavLink>
             </li>
             <li>
-              <a href="/Page4">Page4</a>
+            <NavLink to="/Page4">Page4</NavLink>
             </li>
           </ul>
         </div>

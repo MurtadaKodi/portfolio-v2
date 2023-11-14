@@ -4,7 +4,6 @@ import '../pages/pages.css'
 import VideoPlayer from './2-palace-video';
 import ImgMediaCard from './2-palace-img';
 import PalaceMap from './2-palace-map';
-
 // import PalaceImag from './5-palace-img';
 
 
@@ -14,9 +13,7 @@ import PalaceMap from './2-palace-map';
 
 
 
-const North = () => {
-
-  
+const Page4 = () => {
   return (
     
     <div>
@@ -51,14 +48,12 @@ const North = () => {
 
         <section className='page-fotter'>
           <Footer/>
-        
         </section>
-        
-    
+
     
     </div>
   );
 }
 
-export default North;
+export default Page4;
 

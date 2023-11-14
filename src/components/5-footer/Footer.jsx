@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import  './footer.css';
 const Footer = () => {
   return (
-    (<footer className='flex'>
+    (<footer className='flex modal'>
 
       <ul className='modal '>
         <ul className='flex'>
