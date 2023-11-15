@@ -1,17 +1,21 @@
 export const myProject = [
   {
-    projectTitle: "react project",
-  
-    category: ["react", "css"],
+    projectTitle: "north project",
+    category: ["north"],
+    imgPath: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319694/WebSite%20Images/Alzubara%20image/56251_ocaepn.jpg",
+  },
+  {
+    projectTitle: "north project",
+    category: ["north"],
     imgPath: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319694/WebSite%20Images/Alzubara%20image/56251_ocaepn.jpg",
   },
   {
     projectTitle: "css project",
-    category: [ "North House"],
+    category: [ "north"],
     imgPath: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319692/WebSite%20Images/Alzubara%20image/25660_e4ee9b.jpg",
   },
-  { projectTitle: "html project",
-  category: ["react",'html'],
+  { projectTitle: "palace project",
+  category: ["palace",'html'],
   imgPath: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319692/WebSite%20Images/Alzubara%20image/24896_lnxu6n.jpg"
   },
   {

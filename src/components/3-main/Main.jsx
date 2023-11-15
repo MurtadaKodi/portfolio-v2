@@ -31,20 +31,20 @@ const Main = () => {
 
         <button
           onClick={() => {
-            handleClick("css");
+            handleClick("north");
           }}
-          className={currentActive === "css" ? "active" : null}
+          className={currentActive === "north" ? "active" : null}
         >
-          Css
+          Northen House
         </button>
 
         <button
           onClick={() => {
-            handleClick("react");
+            handleClick("palace");
           }}
-          className={currentActive === "react" ? "active" : null}
+          className={currentActive === "palace" ? "active" : null}
         >
-          React
+          Palace
         </button>
 
         <button
@@ -53,7 +53,7 @@ const Main = () => {
           }}
           className={currentActive === "html" ? "active" : null}
         >
-          Html
+          Souq
         </button>
       </section>
 
