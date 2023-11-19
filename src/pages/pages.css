@@ -16,20 +16,18 @@ table of contents
 .main-container{
   display: flex;
   border: 1px solid var(--border);
-  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
-  width: 90%;
-  justify-content: center;
+  width: 94%;
+  height: auto;
   /* border: 2px solid red; */
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 30px;
   box-shadow: 1px 2px 9px #F4AAB9;
 }
 .card-container{
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   
   
 }
@@ -58,9 +56,11 @@ table of contents
   display: flex;
   border: 1px solid var(--border);
   justify-content: space-between;
+  width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  gap: 3rem;
+  gap: 4rem;
   justify-content: center;
   /* border: 2px solid red; */
   padding: 1rem;
@@ -68,12 +68,13 @@ table of contents
 .map-container{
   display: flex;
   gap: 1rem;
-  width: 90%;
+  width: 100%;
+  /* border: 2px solid red; */
 }
 .map-sec {
   border: 1px solid var(--border);
-  height: 500px;
-  width: 1500px;
+  height: 600px;
+  width: 100%;
   /* border: 1px solid rgb(36, 195, 47); */
 }
 .frame-map{
@@ -83,8 +84,9 @@ table of contents
 .page-subtitle{
   border: 1px solid var(--border);
   color: var(--subtitle);
-  height: 500px;
+  height: 600px;
   width: 400px;
+  padding: 10px;
   /* border: 1px solid rgb(36, 195, 47); */
   font-size: 18px;
   text-align: start;
@@ -128,7 +130,6 @@ footer.flex p {
 /* =========================
 3. @Meadia Query
 ========================= */
-
 @media (max-width: 375px) {
   .main-container{
     display: flex;
@@ -139,7 +140,7 @@ footer.flex p {
     margin-right: auto;
     margin-top: 2rem;
     width: 80%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 1rem;
     border-radius: 30px;
     box-shadow: 1px 2px 9px #F4AAB9;
@@ -155,7 +156,7 @@ footer.flex p {
     width: 100% !important;
     border-radius: 30px;
     box-shadow: 1px 2px 9px #F4AAB9;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .card-container{
     display: flex;
@@ -234,7 +235,6 @@ footer.flex p {
 }
 /* ====================================
 ==================================== */
-
 @media(max-width: 390px) {
   .main-container{
     display: flex;
@@ -340,7 +340,6 @@ footer.flex p {
 }
 /* ====================================
 ==================================== */
-
 @media(max-width: 412px) {
   .main-container{
     display: flex;

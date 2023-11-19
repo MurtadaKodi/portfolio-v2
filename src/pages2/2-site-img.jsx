@@ -1,23 +1,23 @@
 import  { useState } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
-import './pages.css'
+import './pages2.css'
 export default function App() {
   const [imageNum, setImageNum] = useState(1);
   const sliderImages = [
     {
-      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319695/WebSite%20Images/Alzubara%20image/911_u5kfqv.jpg",
+      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319692/WebSite%20Images/Alzubara%20image/17709_cychyz.jpg",
     },
     {
-      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319694/WebSite%20Images/Alzubara%20image/56251_ocaepn.jpg",
+      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319691/WebSite%20Images/Alzubara%20image/25648_lyhomv.jpg",
     },
     {
-      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319693/WebSite%20Images/Alzubara%20image/56251_1_rltji6.jpg",
+      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319692/WebSite%20Images/Alzubara%20image/17691_mmhlp4.jpg",
     },
     {
-      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319693/WebSite%20Images/Alzubara%20image/44877_q3qrhp.jpg",
+      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319691/WebSite%20Images/Alzubara%20image/25648_lyhomv.jpg",
     },
     {
-      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319694/WebSite%20Images/Alzubara%20image/910_chspkr.jpg",
+      url: "https://res.cloudinary.com/dmklduciw/image/upload/v1691319691/WebSite%20Images/Alzubara%20image/25648_lyhomv.jpg",
     },
   ];
   return (
@@ -39,7 +39,7 @@ export default function App() {
       </section>
       
       <div className="imageNum" style={{ fontSize: "1.5rem" , alignItems:'center' }}>
-       {imageNum}.
+      {imageNum}.
       </div>
     </div>
   );

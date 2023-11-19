@@ -31,27 +31,27 @@ const Main = () => {
 
         <button
           onClick={() => {
-            handleClick("north");
+            handleClick("North House");
           }}
-          className={currentActive === "north" ? "active" : null}
+          className={currentActive === "North House" ? "active" : null}
         >
           Northen House
         </button>
 
         <button
           onClick={() => {
-            handleClick("palace");
+            handleClick("Palace");
           }}
-          className={currentActive === "palace" ? "active" : null}
+          className={currentActive === "Palace" ? "active" : null}
         >
           Palace
         </button>
 
         <button
           onClick={() => {
-            handleClick("html");
+            handleClick("Souq");
           }}
-          className={currentActive === "html" ? "active" : null}
+          className={currentActive === "Souq" ? "active" : null}
         >
           Souq
         </button>

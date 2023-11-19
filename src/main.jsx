@@ -7,18 +7,16 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import NorthenHouse from './pages/1-north.jsx';
-
 import SouthHouse from './pages/2-palace.jsx';
 import Page4 from './pages/5-page4.jsx';
-
 import Emrair from './pages2/5-emrair.jsx';
-
 import Site from './pages2/1-site.jsx';
-import Fort from './pages2/4-fort-img.jsx';
+import Fort from './pages2/3-fort.jsx';
 import Palace from './pages/2-palace.jsx';
 import PalaceVideo from './pages/2-palace-video.jsx';
 import Souq from './pages/4-souq.jsx';
 import PagesHero from './pages/pages-hero.jsx';
+import Near from './pages2/7-near.jsx';
 
 // import ImageGallery from './pages2/gallery‏.jsx';
 
@@ -54,6 +52,10 @@ const router = createBrowserRouter([
     path: "/fort",
     element: <Fort/>,
   },
+  {
+    path: "/site",
+    element: <Site/>,
+  },
   
   {
     path: "/emrair",
@@ -61,8 +63,8 @@ const router = createBrowserRouter([
   },
   
   {
-  path: "/site",
-    element: <Site/>,
+  path: "/near",
+    element: <Near/>,
   },
   {
     path: "/palace",
