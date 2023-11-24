@@ -6,9 +6,11 @@ const NorthMap = () => {
       <section className="details">
         {/* <div className='divider'/> */}
         <motion.h1>
-          <p className="page-subtitle"> (البيت الشمالي al-bait al-shimali) <br />
+          <p className="page-subtitle">
+            <center style={{fontSize:'22px', fontStyle:'italic',fontFamily:'sans-serif'}}>البيت الشمالي al-bait al-shimali</center> 
+          
             In the northeastern part of the town is located a large courtyard
-            house, so-called Northern House (البيت الشمالي al-bait al-shimali)
+            house, so-called Northern House البيت الشمالي al-bait al-shimali
             . The house is preserved in two different phases. In the early phase
             the rectangular building measures ca. 106 m x 45 m , is mainly built
             with limestones and beachrocks, A portico is commonly found along

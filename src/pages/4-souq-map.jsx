@@ -7,6 +7,8 @@ const SouqMap = () => {
         {/* <div className='divider'/> */}
         <motion.h1>
           <p className="page-subtitle">
+          <center style={{fontSize:'22px', fontStyle:'italic',fontFamily:'sans-serif'}}> السوق The souq</center> 
+            
             The souq has several phases, reflecting Al Zubarah’s settlement
             development. The proximity of the souq to the seafront shows how
             closely connected retail and commerce were to maritime life and
