@@ -56,9 +56,9 @@
 } */
 
 .frame-map2 {
-  display: inline-flex;
-  /* border: 2px solid rgb(0, 55, 255); */
-  width: 370%;
+  display: flex;
+  border: 2px solid rgb(0, 55, 255);
+  width: 310%;
   height: 100%;
   border-radius: 30px;
 

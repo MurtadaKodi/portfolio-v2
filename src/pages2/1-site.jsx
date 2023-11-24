@@ -137,7 +137,8 @@ const Site = () => {
           >
             <iframe
               className="frame-map2 frame-site"
-              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7677.690899882571!2d51.0261891!3d25.9792373!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2sqa!4v1700678362438!5m2!1sar!2sqa"
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7677.690899882571!2d51.0261891!3d25.9792373!3m2!1i1024!
+              2i768!4f13.1!5e1!3m2!1sar!2sqa!4v1700678362438!5m2!1sar!2sqa"
             ></iframe>
           </motion.section>
         </div>

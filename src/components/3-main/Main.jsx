@@ -26,7 +26,7 @@ const Main = () => {
           }}
           className={currentActive === "all" ? "active" : null}
         >
-          All Project
+          All Sites
         </button>
 
         <button
