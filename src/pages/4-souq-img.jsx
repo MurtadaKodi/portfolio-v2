@@ -1,102 +1,108 @@
+import Card from "@mui/material/Card";
+import CardMedia from "@mui/material/CardMedia";
 
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-
-import Typography from '@mui/material/Typography';
-
-export default function ImgMediaCard() {
+export default function SouqImageCard() {
   return (
 
-    <section className='card-container'>
-      <Card className='card-layout'  sx={{ maxWidth: 350 }}>
-        <CardMedia className='img-card'
-          component="img"
-          alt="green iguana"
-          height="200"
-          image="https://res.cloudinary.com/dmklduciw/image/upload/v1689241645/WebSite%20Images/Sites/grid_landscape_ebx5n1.jpg"
-        />
-        <CardContent>
+    <div>
+      <section className="card-container">
+        <Card className="card-layout" >
+          <CardMedia
+            className="img-card"
+            component="img"
+            alt="green iguana"
+            height="100%"
+          
       
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography>
+            image="https://res.cloudinary.com/dmklduciw/image/upload/t_Banner 16:9/v1700069802/WebSite%20Images/Alzubara%20image/20231029_113024_lxafbo.jpg"
+          />
+          
+        </Card>
       
-          <Typography className='site-details'>
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-        </CardContent>
+        <Card className="card-layout" >
+          <CardMedia
+            className="img-card"
+            component="img"
+            alt="green iguana"
+            height="100%"
+            image="https://res.cloudinary.com/dmklduciw/image/upload/v1691319693/WebSite%20Images/Alzubara%20image/56251_1_rltji6.jpg"
+          />
+          
+        </Card>
+      
+        <Card className="card-layout" >
+          <CardMedia
+            className="img-card"
+            component="img"
+            alt="green iguana"
+            height="100%"
+            image="https://res.cloudinary.com/dmklduciw/image/upload/v1691319694/WebSite%20Images/Alzubara%20image/59936_vbt5eq.jpg"
+          />
         
-      </Card>
-
-      <Card className='card-layout'  sx={{ maxWidth: 350 }}>
-        <CardMedia className='img-card'
-          component="img"
-          alt="green iguana"
-          height="200"
-          image="https://res.cloudinary.com/dmklduciw/image/upload/v1691319693/WebSite%20Images/Alzubara%20image/56414_ca9nfd.jpg"
-        />
-        <CardContent>
+        </Card>
       
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography>
-      
-          <Typography className='site-details' variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-        </CardContent>
+        <Card className="card-layout" >
+          <CardMedia
+            className="img-card"
+            component="img"
+            alt="green iguana"
+            // height="400"
+            image="https://res.cloudinary.com/dmklduciw/image/upload/v1691319694/WebSite%20Images/Alzubara%20image/59938_m2qkt0.jpg"
+          />
         
-      </Card>
+        </Card>
+      </section>
 
-      <Card className='card-layout'  sx={{ maxWidth: 350 }}>
-        <CardMedia className='img-card'
-          component="img"
-          alt="green iguana"
-          height="200"
-          image="https://res.cloudinary.com/dmklduciw/image/upload/v1689241645/WebSite%20Images/Sites/grid_landscape_ebx5n1.jpg"
-        />
-        <CardContent>
+      <div className='divider'/>
+
+      <section className="card-container">
+        <Card className="card-layout" >
+          <CardMedia
+            className="img-card"
+            component="img"
+            alt="green iguana"
+            height="100%"
+          
       
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography>
+            image="https://res.cloudinary.com/dmklduciw/image/upload/t_Banner 16:9/v1700069802/WebSite%20Images/Alzubara%20image/20231029_113024_lxafbo.jpg"
+          />
+          
+        </Card>
       
-          <Typography className='site-details' variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-        </CardContent>
+        <Card className="card-layout" >
+          <CardMedia
+            className="img-card"
+            component="img"
+            alt="green iguana"
+            height="100%"
+            image="https://res.cloudinary.com/dmklduciw/image/upload/v1691319693/WebSite%20Images/Alzubara%20image/56251_1_rltji6.jpg"
+          />
+          
+        </Card>
+      
+        <Card className="card-layout" >
+          <CardMedia
+            className="img-card"
+            component="img"
+            alt="green iguana"
+            height="100%"
+            image="https://res.cloudinary.com/dmklduciw/image/upload/v1691319694/WebSite%20Images/Alzubara%20image/59936_vbt5eq.jpg"
+          />
         
-      </Card>
+        </Card>
       
-      <Card className='card-layout'  sx={{ maxWidth: 350 }}>
-        <CardMedia className='img-card'
-          component="img"
-          alt="green iguana"
-          height="200"
-          image="https://res.cloudinary.com/dmklduciw/image/upload/v1689241645/WebSite%20Images/Sites/grid_landscape_ebx5n1.jpg"
-        />
-        <CardContent>
-      
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography>
-      
-          <Typography className='site-details' variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-        </CardContent>
+        <Card className="card-layout" >
+          <CardMedia
+            className="img-card"
+            component="img"
+            alt="green iguana"
+            // height="400"
+            image="https://res.cloudinary.com/dmklduciw/image/upload/v1691319694/WebSite%20Images/Alzubara%20image/59938_m2qkt0.jpg"
+          />
         
-      </Card>
+        </Card>
+      </section>
+    </div>
 
-    </section>
-
-    
-
-    
   );
 }

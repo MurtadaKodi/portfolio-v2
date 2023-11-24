@@ -1,59 +1,39 @@
-import Footer from '../components/5-footer/Footer';
-import Header from '../components/1-header/Header';
-import '../pages/pages.css'
-import VideoPlayer from './2-palace-video';
-import ImgMediaCard from './2-palace-img';
-import PalaceMap from './2-palace-map';
+import Footer from "../components/5-footer/Footer";
+import Header from "../components/1-header/Header";
+import "../pages/pages.css";
+import PalaceMap from "./2-palace-map";
+import PalaceImageCard from "./2-palace-img";
+import PalaceVideo from "./2-palace-video";
 // import PalaceImag from './5-palace-img';
-
-
-
-
-
-
-
 
 const Palace = () => {
   return (
-    
     <div>
-      <Header/>
+      <Header />
       {/* <PagesHero/> */}
+      {/* <div className='divider'/> */}
 
-      <section className='flex main-container'>
-        <ImgMediaCard/>
+      <section className="flex main-container ">
+        <PalaceMap />
       </section>
 
-      <div className='divider'/>
-
-      <section className='flex main-container '>
-      <VideoPlayer/>
+      <section className="flex main-container">
+        <PalaceImageCard />
       </section>
 
-      <div className='divider'/>
+      <div className="divider" />
 
-      <section className='flex main-container '>
-      <PalaceMap/>
+      <section className="flex main-container ">
+        <PalaceVideo />
       </section>
 
+      <div className="divider" />
 
-
-      <div className='divider'/>
-
-      
-        
-    
-
-    
-
-        <section className='page-fotter'>
-          <Footer/>
-        </section>
-
-    
+      <section className="page-fotter">
+        <Footer />
+      </section>
     </div>
   );
-}
+};
 
 export default Palace;
-

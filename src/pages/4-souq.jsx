@@ -1,9 +1,9 @@
 import Footer from '../components/5-footer/Footer';
 import Header from '../components/1-header/Header';
 import '../pages/pages.css'
-import VideoPlayer from './2-palace-video';
-import ImgMediaCard from './2-palace-img';
-import PalaceMap from './2-palace-map';
+import SouqImageCard from './4-souq-img';
+import SouqMap from './4-souq-map';
+import SouqVideo from './4-souq-video';
 // import PalaceImag from './5-palace-img';
 
 
@@ -19,22 +19,23 @@ const Souq = () => {
     <div>
       <Header/>
       {/* <PagesHero/> */}
+      {/* <div className='divider'/> */}
+
+      <section className='flex main-container '>
+      <SouqMap/>
+      </section>
 
       <section className='flex main-container'>
-        <ImgMediaCard/>
+        <SouqImageCard/>
       </section>
 
       <div className='divider'/>
 
       <section className='flex main-container '>
-      <VideoPlayer/>
+      <SouqVideo/>
       </section>
 
-      <div className='divider'/>
-
-      <section className='flex main-container '>
-      <PalaceMap/>
-      </section>
+      
 
 
 

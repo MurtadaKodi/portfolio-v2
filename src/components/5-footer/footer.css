@@ -1,12 +1,13 @@
 footer.flex {
   justify-content: space-between;
-  margin-bottom: 1.9rem;
+  margin-bottom: 1rem;
   
 
 
 }
 
 footer.flex ul {
+  display: flex;
   gap: 1rem;
 }
 li:hover {
@@ -44,6 +45,23 @@ footer.flex ul a {
   all: unset;
   
 }
+footer.flex ul a {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: .3s;
+}
+
+footer.flex ul a:hover {
+  color: var(--blue);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+footer.flex p {
+  color: rgb(113, 113, 122);
+
+}
 
 
 
@@ -60,111 +78,35 @@ footer.flex p {
 
 @media (max-width: 375px) {
   footer.flex {
-
-    margin: .1rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-  }
-
-  footer.flex ul {
-    flex-wrap: wrap;
-    display: flex;
-    margin-left: .1px;
-
-
-
-  }
-
-  footer.flex ul a {
-    display: flex;
-    font-size: 0.7rem;
-    font-weight: 400;
-    padding-left: 5px;
-
-    justify-content: center;
-
-
-  }
-
-  footer p {
-    display: flex;
-    font-size: 0.7rem;
-    font-weight: 400;
-    transition: .3s;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10px;
-    margin-bottom: 14px;
-    justify-content: center;
-
-  }
-
-
-}
-/* ====================================
-==================================== */
-
-@media(max-width: 390px) {
-  footer.flex {
-    margin: .1rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  footer.flex ul {
-    flex-wrap: wrap;
-    display: flex;
-    margin-left: .1px;
-  }
-
-  footer.flex ul a {
-    display: flex;
-    font-size: 0.7rem;
-    font-weight: 400;
-    padding-left: 5px;
-    justify-content: center;
-  }
-
-  footer p {
-    display: flex;
-    font-size: 0.7rem;
-    font-weight: 400;
-    transition: .3s;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10px;
-    margin-bottom: 14px;
-    justify-content: center;
+    display: block;
+    margin: 1rem;
     
-  }
-  
-}
-/* ====================================
-==================================== */
-
-@media(max-width: 412px) {
-  footer.flex {
-    margin: .1rem;
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* border: 2px solid red; */
   }
-
   footer.flex ul {
-    flex-wrap: wrap;
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-left: .1px;
+    /* border: 2px solid rgb(255, 242, 0); */
+
   }
 
   footer.flex ul a {
-    display: flex;
-    font-size: 0.7rem;
-    font-weight: 400;
-    padding-left: 5px;
-    justify-content: center;
+    display: block;
+  
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+  
+    
+    /* border: 2px solid rgb(0, 0, 255); */
+
+
+
   }
 
   footer p {
@@ -172,19 +114,99 @@ footer.flex p {
     font-size: 0.7rem;
     font-weight: 400;
     transition: .3s;
-    margin-right: auto;
-    margin-left: auto;
+    
     margin-top: 10px;
     margin-bottom: 14px;
     justify-content: center;
-  }
-}
+    /* border: 2px solid rgb(195, 255, 0); */
 
-/* @media (max-width:600px) {
-  footer.flex{
-    flex-direction: column;
-    gap: 1.3rem;
-    margin-bottom: 1.2rem;
+
   }
-  
-} */
+
+
+}
+/* ====================================
+==================================== */
+@media (max-width: 414px) {
+  footer.flex {
+    display: block;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* border: 2px solid red; */
+  }
+  footer.flex ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: .1px;
+    /* border: 2px solid rgb(255, 242, 0); */
+
+  }
+
+  footer.flex ul a {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    /* border: 2px solid rgb(0, 0, 255); */
+  }
+
+  footer p {
+    display: flex;
+    font-size: 0.7rem;
+    font-weight: 400;
+    transition: .3s;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    justify-content: center;
+    /* border: 2px solid rgb(195, 255, 0); */
+  }
+
+
+}
+/* ====================================
+==================================== */
+@media (max-width: 430px) {
+  footer.flex {
+    display: block;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* border: 2px solid red; */
+  }
+  footer.flex ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: .1px;
+    /* border: 2px solid rgb(255, 242, 0); */
+
+  }
+
+  footer.flex ul a {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    /* border: 2px solid rgb(0, 0, 255); */
+  }
+
+  footer p {
+    display: flex;
+    font-size: 0.7rem;
+    font-weight: 400;
+    transition: .3s;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    justify-content: center;
+    /* border: 2px solid rgb(195, 255, 0); */
+  }
+
+
+}
+/* ====================================
+==================================== */
+

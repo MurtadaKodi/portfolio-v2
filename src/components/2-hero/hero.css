@@ -13,7 +13,10 @@ table of contents
 
 section.hero {
   margin-top: .2rem;
+  /* background-image:url('https://res.cloudinary.com/dmklduciw/image/upload/v1700069802/WebSite%20Images/Alzubara%20image/20231029_113024_lxafbo.jpg'); */
+  /* background-repeat: no-repeat; */
 }
+
 
 section.hero .parent-avatar.flex {
   align-items: end;
@@ -48,7 +51,7 @@ section.hero h1.title {
 
 section.hero p.subtitle {
   color: var(--subtitle);
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.65rem;
   margin-bottom: 32px;
 }
@@ -60,7 +63,7 @@ section.hero .all-icons {
 }
 
 section.hero .all-icons .icon:hover {
-  font-size: 1.5rem;
+  font-size: 1rem;
   transition: .2s;
   cursor: pointer;
   color: var(--icon-hover);

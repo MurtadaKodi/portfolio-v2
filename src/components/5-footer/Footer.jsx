@@ -4,17 +4,19 @@ const Footer = () => {
   return (
     (<footer className='flex modal'>
 
-      <ul className='modal '>
-        <ul className='flex'>
+      
+        <ul className=''>
           
         <li><NavLink to="/site">Alzubara Site</NavLink></li>
         <li><NavLink to="/fort">Alzubara Fort</NavLink></li>
         <li><NavLink to="/emrair">Emrair</NavLink></li>
         <li><NavLink to="/near">Near</NavLink></li>
         </ul>
-      </ul>
+    
 
-      <p>created by  Murtada Kodi  @2023</p>
+      <section>
+        <p>created by  Murtada Kodi  @2023</p>
+      </section>
       
       
     </footer>)

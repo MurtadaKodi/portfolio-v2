@@ -3,18 +3,18 @@ import ReactPlayer from 'react-player';
 
 
 
-  function VideoPlayer() {  
+  function NorthVideo() {  
 return (
     <section className='video-container'>
       <ReactPlayer className='video'
-        url="https://youtu.be/9jouP_EUyok?si=VsmNfmYo2wmhP0Ez"
+        url="https://www.youtube.com/watch?v=xVE37tNyvGA&t=11s"
         controls={true} // لعرض أزرار التحكم في الفيديو
         // width="90%" // عرض الفيديو
         // height="90%" // ارتفاع الفيديو
         
       />
         <ReactPlayer className='video'
-        url="https://youtu.be/9jouP_EUyok?si=VsmNfmYo2wmhP0Ez"
+        url="https://www.youtube.com/watch?v=OHVY80n1AJE"
         controls={true} // لعرض أزرار التحكم في الفيديو
         // width="90%" // عرض الفيديو
         // height="90%" // ارتفاع الفيديو
@@ -24,4 +24,4 @@ return (
   );
 }
 
-export default VideoPlayer;
+export default NorthVideo;
