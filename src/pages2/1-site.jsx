@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Header from "../components/1-header/Header";
 import Footer from "../components/5-footer/Footer";
 import "./pages2.css";
+import { Card } from "@mui/material";
 
 const Site = () => {
   return (
@@ -99,7 +100,7 @@ const Site = () => {
       </section>
 
       <section className="details-map-container " style={{ display: "flex" }}>
-        <div className="details-grid details2">
+        <section className="details-grid details2">
           <p className="page-subtitle2">
             Al Zubarah Archaeological Site is located on the north-western coast
             of Qatar; it consists of the town, a harbor area, two extramural
@@ -112,8 +113,8 @@ const Site = () => {
             the occupation spanned to 1811. When the Sultan of Muscat barraged
             the city and set it ablaze.
           </p>
-        </div>
-        <div className="details-grid details2" style={{ height: "800px" }}>
+        </section>
+        <section className="details-grid details2" >
           <p className="page-subtitle2">
             Afterwards, this the town was abandoned until 1820 where a small
             pearling community was based there, but preserving not even 20% of
@@ -127,10 +128,10 @@ const Site = () => {
             height of the town (ca. 1760s until 1811) has been calculated to a
             maximum number of between 6000 and 9000 people.
           </p>
-        </div>
+        </section>
 
-        <div className="map">
-          <motion.section
+        <section className="map">
+          <motion.section className="map"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 2 }}
@@ -141,7 +142,7 @@ const Site = () => {
               2i768!4f13.1!5e1!3m2!1sar!2sqa!4v1700678362438!5m2!1sar!2sqa"
             ></iframe>
           </motion.section>
-        </div>
+        </section>
       </section>
 
       <div className="page-fotter">

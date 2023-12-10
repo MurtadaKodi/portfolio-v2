@@ -17,6 +17,7 @@ import PalaceVideo from './pages/2-palace-video.jsx';
 import Souq from './pages/4-souq.jsx';
 import PagesHero from './pages/pages-hero.jsx';
 import Near from './pages2/7-near.jsx';
+import NorthBook from './pages/north-book.jsx';
 
 // import ImageGallery from './pages2/gallery‏.jsx';
 
@@ -75,9 +76,16 @@ const router = createBrowserRouter([
       element: <PalaceVideo/>,
     },
     {
-      path: "/pages-hero",
+      path: "/north-book",
         element: <PagesHero/>,
       },
+      {
+        path: "/north-book",
+          element: <NorthBook/>,
+        },
+        
+
+      
 
     
 

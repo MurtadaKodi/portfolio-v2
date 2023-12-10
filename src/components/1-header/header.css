@@ -79,7 +79,7 @@ button.icon-clear {
 header button.mode:hover,
 header button.icon-menu:hover {
   color: var(--title);
-  border: 1px solid #f89706;
+  /* border: 1px solid #f89706; */
 }
 
 header .icon-clear {

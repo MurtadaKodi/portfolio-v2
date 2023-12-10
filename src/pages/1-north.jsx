@@ -1,6 +1,7 @@
 import Footer from '../components/5-footer/Footer';
 import Header from '../components/1-header/Header';
 import '../pages/pages.css'
+// import '../pages/book.css'
 import NorthImageCard from './1-north-img';
 import NorthMap from './1-north-map';
 import NorthVideo from './1-north-video';

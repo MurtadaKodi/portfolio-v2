@@ -7,32 +7,49 @@
   display: flex;
   width: 94%;
   height: 80vh;
-  margin: 30px auto;
-  padding: 20px;
+  margin: 5px auto;
+  margin-bottom: 5px;
+  padding: 10px;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 300px 300px;
-  /* border: 2px solid rgb(0, 55, 255); */
+  /* border: 2px solid rgb(38, 0, 255); */
   grid-gap: 10px;
 }
 
 .details-map-container {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: 90%;
-  /* border: 2px solid rgb(212, 255, 0); */
-  margin: 5px auto;
+  
+
+  grid-template-rows: 94%;
+  /* border: 2px solid rgb(255, 0, 0); */
+  margin: 20px auto;
   height: auto;
   width: 94%;
-  padding: 5px;
+  padding: 10px;
+  
 
 }
 
 .page-subtitle2 {
-  /* border: 1px solid var(--border); */
+  border: 1px solid var(--border);
+  color: var(--subtitle);
+  text-indent: 40px;
+  width: 40vh;
+  padding: 10px;
+  justify-content: space-between;
+  /* border: 1px solid rgb(36, 195, 47); */
+  font-size: 16px;
+  text-align: justify;
+  line-height: 200%;
+  font-weight: 300;
+  font-style: normal;
+
+}
+.page-subtitle{
+  border: 1px solid var(--border);
   color: var(--subtitle);
   height: 600px;
-  width: 400px;
+  width: 120%;
   padding: 30px;
   /* border: 1px solid rgb(36, 195, 47); */
   font-size: 16px;
@@ -40,40 +57,34 @@
   line-height: 40px;
   font-weight: 300;
   font-style: normal;
+  border-radius: 20px;
 
 }
 
-/* .details2{
-  border: 3px solid var(--border);
-  border-radius: 30px;
-  font-size: 16px;
-  text-align: center;
-  font-weight: 100;
-  margin: 5px;
-  letter-spacing:1px ;
-  line-height: 30px;
-  border: 2px solid rgb(25, 0, 255);
-} */
 
 .frame-map2 {
   display: flex;
-  border: 2px solid rgb(0, 55, 255);
-  width: 310%;
-  height: 100%;
+  /* border: 2px solid rgb(217, 255, 0); */
+  width: 280%;
+  height: 115%;
   border-radius: 30px;
+  margin-left:  1;
 
 }
-.frame-site{
+/* .frame-site{
   display: inline-flex;
-  /* border: 2px solid rgb(0, 55, 255); */
+  border: 2px solid rgb(0, 55, 255);
   width: 244%;
   height: 100%;
   border-radius: 30px;
-}
+} */
 
 .map {
   display: flex;
   /* border: 2px solid rgb(0, 55, 255); */
+  margin-left: 20px;
+  height: 600px;
+  width: 96%;
 }
 
 .grid3 {
@@ -361,27 +372,17 @@
     margin-left: 10px;
 
   }
-
   /* .details2{
     display: flex;
     border: 3px solid var(--border);
     font-size: 28px;
     font-weight: 200;
-    justify-content: center;
-    letter-spacing:1px ;
-    line-height: 50px;
+    juster-spacing:1px ;
+    lintify-content: center;
+    lete-height: 50px;
     border: 3px solid red;
   } */
-  /* .details2 p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid rgb(0, 21, 255);
-    width: auto;
-    height: auto;
-    font-size: 18px;
-    font-weight: 100; 
-  } */
+    
   .map {
     border: 3px solid var(--border);
     width: 100%;
@@ -459,6 +460,68 @@
     margin-left: auto;
     margin-right: auto;
     /* border: 3px solid rgb(0, 21, 255); */
+  }
+}
+/* ====================================
+==================================== */
+@media (max-width: 768px) {
+
+  .grid-container {
+    display: flex;
+    border: 1px solid var(--border);
+    flex-direction: column;
+    width: 90%;
+    /* padding: 1rem; */
+    border-radius: 30px;
+    height: auto;
+    /* border: 1px solid rgb(30, 0, 255); */
+
+  }
+
+  .details-map-container {
+    display: flex;
+    border: 1px solid var(--border);
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 30px;
+    align-items: center;
+    /* border: 1px solid red; */
+
+
+
+
+  }
+
+  .frame-map2 {
+    display: flex;
+    /* border: 2px solid rgb(0, 55, 255); */
+    width: 100%;
+    height: auto;
+    margin-left: 2px;
+    justify-content: center;
+
+  }
+
+
+  .details2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid rgb(0, 21, 255); */
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    font-weight: 500; 
+  }
+  .map {
+    border: 3px solid var(--border);
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 3px solid rgb(183, 255, 0); */
   }
 }
 

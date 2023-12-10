@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="left-section ">
         <div className="parent-avatar flex">
           <img
-            src="https://res.cloudinary.com/dmklduciw/image/upload/t_Profile/v1686040909/WebSite%20Images/Forts/ZubaraFort-1_pdtart.png"
+            src="https://res.cloudinary.com/dmklduciw/image/upload/v1686223855/Picture1_sokkxb.jpg"
             className="avatar"
             alt=""
           />

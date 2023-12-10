@@ -92,22 +92,31 @@ const Near = () => {
         </section>
       </div>
       <section className="details-map-container ">
-        <div className="details-grid details2">
+        <div className="details-grid details2 flex">
           <p className="page-subtitle">
             I. Aljumail : ………………………………………… <br />
             II. Alareesh : ………………………………………… <br />
             III. Freaha : ………………………………………… <br />
-            IV. Ain Mohamed : ………………………………………… <br />
+            IV. Ain Mohamed : ……………………………… <br />
             V. Alroidaha : ………………………………………… <br />
             VI. Alrakeat : ………………………………………… <br />
             VII. Althagab : ………………………………………… <br />
             VIII. Aljumail : ………………………………………… <br />
-            IX. Alareesh : ………………………………………… <br />
-            X. Freaha : ………………………………………… <br />
-            XI. Ain Mohamed : ………………………………………… <br />
-            XII. Alroidaha : ………………………………………… <br />
-            XIII. Alrakeat : ………………………………………… <br />
-            XIV. Althagab : …………………………………………
+            IX. Alareesh : ………………………………………… 
+          
+          </p>
+
+          <p className="page-subtitle">
+            I. Aljumail : ………………………………………… <br />
+            II. Alareesh : ………………………………………… <br />
+            III. Freaha : ………………………………………… <br />
+            IV. Ain Mohamed : ……………………………… <br />
+            V. Alroidaha : ………………………………………… <br />
+            VI. Alrakeat : ………………………………………… <br />
+            VII. Althagab : ………………………………………… <br />
+            VIII. Aljumail : ………………………………………… <br />
+            IX. Alareesh : ………………………………………… 
+          
           </p>
         </div>
 
