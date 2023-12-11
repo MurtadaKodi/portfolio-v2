@@ -49,10 +49,10 @@ const Emrair = () => {
         </div>
       </section>
 
-      <section className="details-map-container ">
-        <div className="details-grid details2">
-          <p className="page-subtitle">
-            Originally, Qalaat Murair was a fortified settlement at the core of
+      <section className="details-map-container " style={{ display: "flex" }}>
+        <div className="">
+          <p className="page-subtitle2">
+          Originally, Qalaat Murair was a fortified settlement at the core of
             which stood a large fort, measuring 170 x 160 m in plan. Inside the
             fort was a heavily built-up area, consisting of several large
             courtyard houses and a multi-domed mosque at the northern gate.
@@ -63,25 +63,30 @@ const Emrair = () => {
             occupation of Al Zubarah, but also to supply the town’s pearling and
             trading fleet. Presently preserved at the site are the southern
             perimeter wall of the fort, the south-western corner tower, the
-            western perimeter wall, and elements of the northern perimeter wall.
-            All are heavily eroded and difficult to see in the landscape. A
-            trench opened in the central part of the fort revealed stratigraphy
-            of more than one metre in depth.
+            western perimeter wall, 
+          </p>
+        </div>
+        <div className="">
+          <p className="page-subtitle2">
+            and elements of the northern perimeter wall.
+            All are heavily eroded and difficult to see in the landscape. 
+
+            
           </p>
         </div>
 
-        <div className="map">
+        <section className="map2">
           <motion.section
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 2 }}
           >
             <iframe
-              className="frame-map2"
+              className="frame-map2 frame-site"
               src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d413.0104385422405!2d51.04315760164594!3d25.974403970046676!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2sqa!4v1700844121852!5m2!1sar!2sqa"
             ></iframe>
           </motion.section>
-        </div>
+        </section>
       </section>
 
       <div className="page-fotter">

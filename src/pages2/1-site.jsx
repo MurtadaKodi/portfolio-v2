@@ -100,7 +100,7 @@ const Site = () => {
       </section>
 
       <section className="details-map-container " style={{ display: "flex" }}>
-        <section className="details-grid details2">
+        <section className="">
           <p className="page-subtitle2">
             Al Zubarah Archaeological Site is located on the north-western coast
             of Qatar; it consists of the town, a harbor area, two extramural
@@ -111,14 +111,14 @@ const Site = () => {
             city was established in 1766, but already present as a settlement in
             1638 (with possible Banu Utbah connections) and the main phase of
             the occupation spanned to 1811. When the Sultan of Muscat barraged
-            the city and set it ablaze.
+            the city and set it ablaze.Afterwards, this the town was abandoned until 1820 where a small
+            pearling community was based there, but preserving not even 20% of
+            the previous extent.
           </p>
         </section>
-        <section className="details-grid details2" >
+        <section className="" >
           <p className="page-subtitle2">
-            Afterwards, this the town was abandoned until 1820 where a small
-            pearling community was based there, but preserving not even 20% of
-            the previous extent. In the late 1800 the British attacked
+            In the late 1800 the British attacked
             Zubarah dhows because of a trade dispute which contributed to the
             eventual decline of the settlement. In the mid-20th century it was
             described that only a few Bedouin of the Nuaimi tribe lived off the

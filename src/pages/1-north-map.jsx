@@ -2,13 +2,12 @@ import { motion } from "framer-motion";
 
 const NorthMap = () => {
   return (
-    <section className="map-container ">
-      <section className="details">
+    <section className="map-container " style={{ display: "flex" }}>
+      <section className="">
         {/* <div className='divider'/> */}
         <motion.h1>
           <p className="page-subtitle">
-            <center style={{fontSize:'22px', fontStyle:'italic',fontFamily:'sans-serif'}}>البيت الشمالي al-bait al-shimali</center> 
-          
+            <center > <h2>البيت الشمالي al-bait al-shimali</h2></center> 
             In the northeastern part of the town is located a large courtyard
             house, so-called Northern House البيت الشمالي al-bait al-shimali
             . The house is preserved in two different phases. In the early phase
@@ -16,6 +15,9 @@ const NorthMap = () => {
             with limestones and beachrocks, A portico is commonly found along
             the southern length of the courtyards providing a shaded area.
             Entrance halls are often elaborated using gypsum plastered interior
+          </p>
+          <section>
+          <p className="page-subtitle">
             walls and decorative elements in the plaster of door frames. A sharp
             bend at the end of the hall ensured that the courtyard areas were
             shielded from direct view, either from the hallway or from the
@@ -26,21 +28,25 @@ const NorthMap = () => {
             top of the western half of the previous building re-using several
             main walls;
           </p>
+          </section>
+            
         </motion.h1>
       </section>
 
-      <motion.section
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ duration: 2 }}
-        className="map-sec"
-      >
-        <iframe
-          className="frame-map"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d716.2171879634423!2d51.027403648853884!3d25.983217444334212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2sqa!4v1699096383286!5m2!1sar!2sqa"
-        ></iframe>
-        {/* width="500" height="500" */}
-      </motion.section>
+      <section className="map2">
+        <motion.section
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 2 }}
+          className="map2"
+        >
+          <iframe
+            className="frame-map "
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d716.2171879634423!2d51.027403648853884!3d25.983217444334212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2sqa!4v1699096383286!5m2!1sar!2sqa"
+          ></iframe>
+          {/* width="500" height="500" */}
+        </motion.section>
+      </section>
     </section>
   );
 };

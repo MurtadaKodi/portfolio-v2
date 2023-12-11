@@ -50,7 +50,7 @@ const Fort = () => {
       </section>
 
       <section className="details-map-container " style={{ display: "flex" }}>
-        <div className="details-grid details2">
+        <div className="">
           <p className="page-subtitle2">
             Al Zubarah fort is located in the north-west of the peninsula of
             Qatar. The fort was built in 1938 (possibly built as a replacement

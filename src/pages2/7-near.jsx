@@ -91,9 +91,11 @@ const Near = () => {
           </div>
         </section>
       </div>
-      <section className="details-map-container ">
-        <div className="details-grid details2 flex">
-          <p className="page-subtitle">
+      
+      <section className="details-map-container " style={{ display: "flex" }}>
+        <div className="">
+          <p className="page-subtitle2">
+            
             I. Aljumail : ………………………………………… <br />
             II. Alareesh : ………………………………………… <br />
             III. Freaha : ………………………………………… <br />
@@ -102,32 +104,43 @@ const Near = () => {
             VI. Alrakeat : ………………………………………… <br />
             VII. Althagab : ………………………………………… <br />
             VIII. Aljumail : ………………………………………… <br />
-            IX. Alareesh : ………………………………………… 
-          
-          </p>
-
-          <p className="page-subtitle">
+            IX. Alareesh : ………………………………………… <br />
             I. Aljumail : ………………………………………… <br />
-            II. Alareesh : ………………………………………… <br />
-            III. Freaha : ………………………………………… <br />
-            IV. Ain Mohamed : ……………………………… <br />
-            V. Alroidaha : ………………………………………… <br />
-            VI. Alrakeat : ………………………………………… <br />
-            VII. Althagab : ………………………………………… <br />
-            VIII. Aljumail : ………………………………………… <br />
-            IX. Alareesh : ………………………………………… 
+              II. Alareesh : ………………………………………… <br />
+              III. Freaha : ………………………………………… <br />
+              IV. Ain Mohamed : ……………………………… <br />
+              V. Alroidaha : ………………………………………… <br />
+              VI. Alrakeat : ………………………………………… <br />
+              VII. Althagab : ………………………………………… <br />
+              III. Freaha : ………………………………………… <br />
+              IV. Ain Mohamed : ……………………………… <br />
+              V. Alroidaha : ………………………………………… <br />
+              VI. Alrakeat : ………………………………………… <br />
+              VII. Althagab : ………………………………………… <br />
+            
           
           </p>
-        </div>
+          </div>
 
-        <div className="map">
+          <div>
+            <p className="page-subtitle2">
+            
+            
+              VIII. Aljumail : ………………………………………… <br />
+              IX. Alareesh : ………………………………………… <br />
+            
+            </p>
+          </div>
+        
+
+        <div className="map2">
           <motion.section
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 2 }}
           >
             <iframe
-              className="frame-map2"
+              className="frame-map2 frame-site"
               src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d80367.91922128404!2d51.085940077597115!3d26.032278955405534!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2sqa!4v1700847328642!5m2!1sar!2sqa"
             ></iframe>
           </motion.section>
