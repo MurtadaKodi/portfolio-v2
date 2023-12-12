@@ -79,7 +79,7 @@ const Fort = () => {
         </div>
         
 
-        <div className="map">
+        <div className="map2">
           <motion.section className="map"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}

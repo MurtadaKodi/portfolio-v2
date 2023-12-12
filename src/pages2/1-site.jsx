@@ -127,7 +127,7 @@ const Site = () => {
         </section>
         
 
-        <section className="map">
+        <section className="map2">
           <motion.section className="map"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}

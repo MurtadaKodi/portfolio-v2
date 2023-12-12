@@ -18,6 +18,7 @@
 }
 
 .details-map-container {
+  display: flex;
   grid-template-rows: 94%;
   /* border: 2px solid rgb(255, 0, 0); */
   margin: 20px auto;
@@ -124,13 +125,7 @@
 
   }
 
-  /* .page-subtitle2 p{
-    display: flex;
-    font-size: 18px;
-    margin: 5px auto;
-    border: 2px solid rgb(0, 55, 255);
-    
-  } */
+
 
 
   .frame-map2 {
@@ -141,28 +136,9 @@
 
   }
 
-  /* .details2{
-    display: flex;
-    border: 3px solid var(--border);
-    font-size: 28px;
-    font-weight: 200;
-    justify-content: center;
-    letter-spacing:1px ;
-    line-height: 50px;
-    border: 3px solid red;
-  } */
-  /* .details2 p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid rgb(0, 21, 255);
-    width: auto;
-    height: auto;
-    font-size: 18px;
-    font-weight: 100; 
-  } */
+
   .map {
-    border: 3px solid var(--border);
+    /* border: 3px solid var(--border); */
     width: 100%;
     height: 600px;
     margin-left: auto;
@@ -177,7 +153,8 @@
 
   .grid-container {
     display: flex;
-    border: 1px solid var(--border);
+    height: 40vh;
+    /* border: 1px solid var(--border); */
     flex-direction: column;
     width: 90%;
     padding: 1rem;
@@ -189,7 +166,7 @@
 
   .details-map-container {
     display: flex;
-    border: 1px solid var(--border);
+    /* border: 1px solid var(--border); */
     flex-direction: column;
     width: 95%;
     height: auto;
@@ -205,7 +182,7 @@
   }
 
   .frame-map2 {
-    border: 2px solid rgb(0, 55, 255);
+    /* border: 2px solid rgb(0, 55, 255); */
     width: 90%;
     margin-left: 10px;
 
@@ -278,28 +255,10 @@
 
   }
 
-  /* .details2{
-    display: flex;
-    border: 3px solid var(--border);
-    font-size: 28px;
-    font-weight: 200;
-    justify-content: center;
-    letter-spacing:1px ;
-    line-height: 50px;
-    border: 3px solid red;
-  } */
-  /* .details2 p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid rgb(0, 21, 255);
-    width: auto;
-    height: auto;
-    font-size: 18px;
-    font-weight: 100; 
-  } */
+
+
   .map {
-    border: 3px solid var(--border);
+    /* border: 3px solid var(--border); */
     width: 100%;
     height: 600px;
     margin-left: auto;
@@ -348,19 +307,10 @@
     margin-left: 10px;
 
   }
-  /* .details2{
-    display: flex;
-    border: 3px solid var(--border);
-    font-size: 28px;
-    font-weight: 200;
-    juster-spacing:1px ;
-    lintify-content: center;
-    lete-height: 50px;
-    border: 3px solid red;
-  } */
+  
     
   .map {
-    border: 3px solid var(--border);
+    /* border: 3px solid var(--border); */
     width: 100%;
     height: 600px;
     margin-left: auto;
@@ -409,28 +359,8 @@
 
   }
 
-  /* .details2{
-    display: flex;
-    border: 3px solid var(--border);
-    font-size: 28px;
-    font-weight: 200;
-    justify-content: center;
-    letter-spacing:1px ;
-    line-height: 50px;
-    border: 3px solid red;
-  } */
-  /* .details2 p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid rgb(0, 21, 255);
-    width: auto;
-    height: auto;
-    font-size: 18px;
-    font-weight: 100; 
-  } */
   .map {
-    border: 3px solid var(--border);
+    /* border: 3px solid var(--border); */
     width: 100%;
     height: 600px;
     margin-left: auto;
@@ -492,12 +422,12 @@
     font-weight: 500; 
   }
   .map {
-    border: 3px solid var(--border);
+  
     width: 100%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    /* border: 3px solid rgb(183, 255, 0); */
+  
   }
 }
 
@@ -505,18 +435,22 @@
 ==================================== */
 @media(max-width: 1024px) {
   .grid-container {
-    display: flex;
+    display: inline-flex;
+    height: 40vh;
     border: 1px solid var(--border);
     flex-direction: column;
-    width: 90%;
+    width: 94%;
     padding: 1rem;
     border-radius: 30px;
     height: auto;
+    margin-left: 30px;
+  
     /* border: 1px solid rgb(30, 0, 255); */
   }
 
   .details-map-container {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
   
     padding: 20px;
     /* border: 1px solid rgb(191, 255, 0); */
