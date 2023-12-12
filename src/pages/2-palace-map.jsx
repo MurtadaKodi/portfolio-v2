@@ -5,8 +5,8 @@ const PalaceMap = () => {
     <section className="map-container flex">
       <section className="details">
         {/* <div className='divider'/> */}
-        <motion.h1>
-          <p className="page-subtitle">
+        <motion.h1 className="page-subtitle">
+          <p >
           <center style={{fontSize:'22px', fontStyle:'italic',fontFamily:'sans-serif'}}> القصر The Palace</center> 
           
             Large scale building located in the southwestern part of the town.

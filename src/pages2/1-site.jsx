@@ -99,7 +99,7 @@ const Site = () => {
         </div>
       </section>
 
-      <section className="details-map-container " style={{ display: "flex" }}>
+      <section className="details-map-container ">
         <section className="">
           <p className="page-subtitle2">
             Al Zubarah Archaeological Site is located on the north-western coast
@@ -114,10 +114,6 @@ const Site = () => {
             the city and set it ablaze.Afterwards, this the town was abandoned until 1820 where a small
             pearling community was based there, but preserving not even 20% of
             the previous extent.
-          </p>
-        </section>
-        <section className="" >
-          <p className="page-subtitle2">
             In the late 1800 the British attacked
             Zubarah dhows because of a trade dispute which contributed to the
             eventual decline of the settlement. In the mid-20th century it was
@@ -129,6 +125,7 @@ const Site = () => {
             maximum number of between 6000 and 9000 people.
           </p>
         </section>
+        
 
         <section className="map">
           <motion.section className="map"

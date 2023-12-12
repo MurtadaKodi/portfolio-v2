@@ -5,9 +5,10 @@ const NorthMap = () => {
     <section className="map-container " style={{ display: "flex" }}>
       <section className="">
         {/* <div className='divider'/> */}
-        <motion.h1>
-          <p className="page-subtitle">
-            <center > <h2>البيت الشمالي al-bait al-shimali</h2></center> 
+        <motion.h1 className="page-subtitle ">
+          <p className=" ">
+            البيت الشمالي al-bait al-shimali 
+            <br />
             In the northeastern part of the town is located a large courtyard
             house, so-called Northern House البيت الشمالي al-bait al-shimali
             . The house is preserved in two different phases. In the early phase
@@ -15,9 +16,6 @@ const NorthMap = () => {
             with limestones and beachrocks, A portico is commonly found along
             the southern length of the courtyards providing a shaded area.
             Entrance halls are often elaborated using gypsum plastered interior
-          </p>
-          <section>
-          <p className="page-subtitle">
             walls and decorative elements in the plaster of door frames. A sharp
             bend at the end of the hall ensured that the courtyard areas were
             shielded from direct view, either from the hallway or from the
@@ -28,7 +26,7 @@ const NorthMap = () => {
             top of the western half of the previous building re-using several
             main walls;
           </p>
-          </section>
+        
             
         </motion.h1>
       </section>

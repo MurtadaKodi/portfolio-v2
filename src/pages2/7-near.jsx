@@ -92,7 +92,7 @@ const Near = () => {
         </section>
       </div>
       
-      <section className="details-map-container " style={{ display: "flex" }}>
+      <section className="details-map-container ">
         <div className="">
           <p className="page-subtitle2">
             
@@ -117,24 +117,18 @@ const Near = () => {
               V. Alroidaha : ………………………………………… <br />
               VI. Alrakeat : ………………………………………… <br />
               VII. Althagab : ………………………………………… <br />
+              VIII. Aljumail : ………………………………………… <br />
+              IX. Alareesh : ………………………………………… <br />
             
           
           </p>
           </div>
 
-          <div>
-            <p className="page-subtitle2">
-            
-            
-              VIII. Aljumail : ………………………………………… <br />
-              IX. Alareesh : ………………………………………… <br />
-            
-            </p>
-          </div>
+          
         
 
         <div className="map2">
-          <motion.section
+          <motion.section className="map"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 2 }}

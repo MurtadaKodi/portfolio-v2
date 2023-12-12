@@ -7,8 +7,8 @@ const Page4Map = () => {
 
 <section className='details'>
   {/* <div className='divider'/> */}
-<motion.h1 >
-    <p className="page-subtitle">
+<motion.h1 className="page-subtitle">
+    <p>
       khgkhhhgjhjoj;jhjghf hlkhftgfhjhkgjgfhggj
       ffghgfhfhfhgghghfhghghkgjhhjkgkgggjhjg khgkhhhgjhjoj;jhjghf
       hlkhftgfhjhkgjgfhggj ffghgfhfhfhgghghfhghghkgjhhjkgkgggjhjg

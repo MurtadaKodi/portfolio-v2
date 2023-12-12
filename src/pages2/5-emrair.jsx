@@ -49,7 +49,7 @@ const Emrair = () => {
         </div>
       </section>
 
-      <section className="details-map-container " style={{ display: "flex" }}>
+      <section className="details-map-container " >
         <div className="">
           <p className="page-subtitle2">
           Originally, Qalaat Murair was a fortified settlement at the core of
@@ -64,19 +64,14 @@ const Emrair = () => {
             trading fleet. Presently preserved at the site are the southern
             perimeter wall of the fort, the south-western corner tower, the
             western perimeter wall, 
-          </p>
-        </div>
-        <div className="">
-          <p className="page-subtitle2">
             and elements of the northern perimeter wall.
-            All are heavily eroded and difficult to see in the landscape. 
-
-            
+            All are heavily eroded and difficult to see in the landscape.
           </p>
         </div>
+        
 
         <section className="map2">
-          <motion.section
+          <motion.section className="map"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 2 }}

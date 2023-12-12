@@ -49,7 +49,7 @@ const Fort = () => {
         </div>
       </section>
 
-      <section className="details-map-container " style={{ display: "flex" }}>
+      <section className="details-map-container " >
         <div className="">
           <p className="page-subtitle2">
             Al Zubarah fort is located in the north-west of the peninsula of
@@ -64,10 +64,6 @@ const Fort = () => {
             rectangular - all the towers are decorated with pointed parapets.
             This fort is unique for the height of it&#8217;s walls and their thickness
             (1 metre)
-          </p>
-        </div>
-        <div className="details-grid details2" style={{ height: "800px" }}>
-          <p className="page-subtitle2">
             The upper levels of the walls are fitted with small openings that
             served for shooting and watching purposes. The fort was built from
             stone quarried from nearby hills which were bonded together using
@@ -81,9 +77,10 @@ const Fort = () => {
             four upper rooms on the first level of the fort.
           </p>
         </div>
+        
 
         <div className="map">
-          <motion.section
+          <motion.section className="map"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 2 }}

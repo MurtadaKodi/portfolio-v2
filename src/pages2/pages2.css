@@ -504,7 +504,7 @@
 /* ====================================
 ==================================== */
 @media(max-width: 1024px) {
-  .main-container2 {
+  .grid-container {
     display: flex;
     border: 1px solid var(--border);
     flex-direction: column;
@@ -512,29 +512,38 @@
     padding: 1rem;
     border-radius: 30px;
     height: auto;
+    /* border: 1px solid rgb(30, 0, 255); */
   }
 
-  .frame-container {
-    display: block;
-    margin: 30px auto;
+  .details-map-container {
+    /* display: flex; */
+  
     padding: 20px;
+    /* border: 1px solid rgb(191, 255, 0); */
   }
 
-  .details-map{
-    display: block;
-  }
-
-  
-  
-  .map {
-    border: 3px solid var(--border);
+  .frame-map2{
     width: 100%;
-    height: 600px;
+    height: 100%;
+    
+    margin: 10px;
+    /* border: 4px solid rgb(47, 0, 255); */
+  }
+  .page-subtitle2{
+    display: flex;
+    border: 1px solid var(--border);
+    font-size: 22px;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    line-height: 50px;
+    font-weight: 500;
     margin-left: auto;
     margin-right: auto;
-
+    justify-content: center;
+  
+    /* border: 1px solid rgb(36, 195, 47); */
   }
-
 
 
   .divider {
@@ -544,5 +553,6 @@
     margin-left: auto;
     margin-right: auto;
   }
+  
 
 }
